@@ -1,33 +1,42 @@
 {
-  "expo": {
-    "name": "first",
-    "slug": "first",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+    "expo": {
+      "name": "adMob",
+      "slug": "adMob",
+      "version": "1.0.0",
+      "orientation": "portrait",
+      "icon": "./assets/icon.png",
+      "userInterfaceStyle": "light",
+      "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#ffffff"
+      },
+      "updates": {
+        "fallbackToCacheTimeout": 0
+      },
+      "assetBundlePatterns": [
+        "**/*"
+      ],
+      "ios": {
+        "supportsTablet": true
+      },
+      "android": {
+        "adaptiveIcon": {
+          "foregroundImage": "./assets/adaptive-icon.png",
+          "backgroundColor": "#FFFFFF"
+        },
+        "package": "com.abdul.hannan.adMob"
+      },
+      "web": {
+        "favicon": "./assets/favicon.png"
+      },
+      "extra": {
+        "eas": {
+          "projectId": "5b5fc3e3-43c1-4b83-ae1a-fa5ca05879b0"
+        }
       }
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "react-native-google-mobile-ads": {
+      "android_app_id": "ca-app-pub-3659755586390177~9161439104"
     }
   }
-}
